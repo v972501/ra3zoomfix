@@ -1,0 +1,9 @@
+Triggers then press "play" in Skirmish, enter tutorial, 
+press "begin" on campaign mission briefing, cam zoom:
+ra3_1.12.game:    0x5eb3b8: cmpb   $0x0,0x48(%esi)
+ra3ep1_1.0.game:  0x5f8528: cmpb   $0x0,0x48(%esi)
+
+Triggers in cutscenes:
+ra3_1.12.game:    0x5232b4: mov    %al,0x48(%ecx)
+ra3ep1_1.0.game:  0x52b804: mov    %al,0x48(%ecx)
+
